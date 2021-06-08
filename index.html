@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Superhero</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/MMmDPXN/lego.png">
+</head>
+<body>
+    <div class="page">
+        <!-- --Main Content-- -->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <figure>
+                        <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="Lego Logo">
+                    </figure>
+                    <ul>
+                        <li><a href="#">Exclusivos</a></li>
+                        <li><a href="#">Nuevos</a></li>
+                        <li><a href="#">Gif Cards</a></li>
+                        <li><a href="#">Find a Store</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="main-content">
+                <p>Diseña tu</p>
+                <h1>Súper Héroe</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, nesciunt optio neque quibusdam suscipit, quaerat nulla non, voluptatum iusto repudiandae quidem modi ea. Exercitationem?</p>
+            </main>
+            <section class="side-content">
+                <div></div>
+                <figure>
+                    <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="Superman">
+                </figure>
+                <p>Superman</p>
+            </section>
+            <section class="footer">
+                <div id="button-spidey">
+                    <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Spiderman">
+                </div>
+                <div id="button-robin">
+                    <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Robin">
+                </div>
+                <div id="button-batman">
+                    <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Batman">
+                </div>
+            </section>
+        </section>
+        <!-- --Loader-- -->
+        <section class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <!-- --Modal-- -->
+        <section class="modal hidden">
+            <div class="modal__content">
+                <img class="modal__content-close" src="https://img.icons8.com/windows/32/000000/macos-close.png"/>
+                <div class="modal__content-slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2">
+                    <input type="radio" name="slider-1" id="radio-3">
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="">
+                        </label>
+                    </div>
+                </div>
+                <button class="modal__content-button">Lo quiero!</button>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
